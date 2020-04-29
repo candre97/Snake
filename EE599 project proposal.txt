@@ -1,0 +1,15 @@
+Google Doc Link -- https://docs.google.com/document/d/1z7csI2Abu-o6ReN9cQr_GCBGsfYFjpGkmrvmnXTzexo/edit?usp=sharing
+
+Charles Andre -- candre@usc.edu 
+Going to work alone
+
+
+Two project ideas, unsure which I will do-- it depends on feedback and on how much I enjoy the new material
+
+
+Soccer Statistician
+Record stats live about playing time, shots, assists, goals, and more! Backend posting this to a website where players/parents can log in, with access, and view stats for each game and for a season, ect. Using Node and whatever other cool tools we learn this year. 
+
+
+Backup project idea: snake C++ game 
+Using some open GL library to give a retro snake game feel. User interaction through arrow keys for controlling the snake. Possibility to make it cooler by allowing the head of the snake to shoot a laser, cutting part of its own tail off, but staying alive, if it’s about to run into its own tail.
