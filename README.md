@@ -1,8 +1,5 @@
 # C++ Snake Game Using Bazel and Ncurses
 
-> Developed in Visual Studio Code
-
-[ncurses](https://www.gnu.org/software/ncurses/) (new curses) is a  library providing a set of APIs that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator. It also optimizes screen changes, in order to reduce the latency experienced when using remote shells.
 
 ## Features
 - 3 different levels of difficulty
@@ -12,8 +9,11 @@
 - Safe multithreading using a Mutex
 - Highly modular design
 
+## About Ncurses
+[ncurses](https://www.gnu.org/software/ncurses/) (new curses) is a  library providing a set of APIs that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator. It also optimizes screen changes, in order to reduce the latency experienced when using remote shells.
+
 ## Screenshot
-![](screenshot.png)
+![](intro.gif)
 
 ## How to install ncurses
 Well installing ncurses library is an easy task, you just have to follow the steps listed below:
