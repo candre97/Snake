@@ -15,7 +15,7 @@
 
 ## Implementation Overview
 ### Main.cc
-''' C++
+```C++
 int main() {
     do {
         Welcome_User();
@@ -28,7 +28,7 @@ int main() {
     } while(user_wants_to_play)
     Print_High_Score(); 
 }
-'''
+```
 
 ### Game Class
 * Provides a wrapper around key functions of the **Snake** class
