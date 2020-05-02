@@ -14,7 +14,7 @@
 - Highly modular design
 
 ## Implementation Overview
-### Main.cc
+### Main.cc Psuedo Code
 ```C++
 int main() {
     do {
