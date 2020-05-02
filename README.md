@@ -1,7 +1,6 @@
 # C++ Snake Game Using Bazel and Ncurses
 
-## Youtube Video for the Project
-[Describing the Code and Showing off the features](https://youtu.be/q1sGrCArmp4)
+## [Youtube Video for the Project](https://youtu.be/q1sGrCArmp4)
 
 ## Compiling and Running the Game
 ![](intro.gif)
