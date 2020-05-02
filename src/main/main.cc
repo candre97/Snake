@@ -19,6 +19,10 @@ void GetDir(Game* g);
 // get user input to set difficulty
 int GetDifficulty(); 
 
+
+///////////////////////
+// MAIN 
+///////////////////////
 int main() {
   int update_freqs[3] = {75, 60, 45};  // miliseconds
   int difficulty = 0;
@@ -37,6 +41,7 @@ int main() {
       std::this_thread::sleep_for(std::chrono::milliseconds(2000));
     }
 
+    // Get difficulty
     int difficulty = GetDifficulty(); 
     
     // initialize game board
@@ -75,6 +80,7 @@ int main() {
 void UpdateSnake(Game* g, int update_freq) {
   while(!g->GetGameOver()) {
     g->NextFrame(); 
+    // cap the speed, though getting this far seems impossible anyways
     std::this_thread::sleep_for(std::chrono::milliseconds(std::max(update_freq - (2*g->GetScore()), 20) )); 
   }
 }
@@ -127,3 +133,4 @@ int GetDifficulty() {
   } while (difficulty > 3 || difficulty < 1);
   return difficulty; 
 }
+
