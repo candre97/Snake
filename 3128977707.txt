@@ -1,0 +1,6 @@
+C++ Snake Game
+C++ implementation of the classic snake game using ncurses library for graphics and std::thread and std::mutex for safe multithreading
+Charles Andre
+https://docs.google.com/document/d/1z7csI2Abu-o6ReN9cQr_GCBGsfYFjpGkmrvmnXTzexo/edit
+https://github.com/candre97/Snake
+https://www.youtube.com/watch?v=q1sGrCArmp4
