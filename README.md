@@ -67,3 +67,5 @@ You can run this using `bazel`:
 ```bash
 bazel run src/main:main
 ```
+
+### [Template for getting started with Bazel](https://github.com/ourarash/ncurses_bazel)
