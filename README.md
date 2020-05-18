@@ -45,6 +45,7 @@ int main() {
 - Moving Fruit
 - Moving this game online
 - Allowing user to pause and resume the game
+- Using Gtests with Ncurses. These don't work right now. 
 
 ## About Ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) (new curses) is a  library providing a set of APIs that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator. It also optimizes screen changes, in order to reduce the latency experienced when using remote shells.
@@ -66,3 +67,5 @@ You can run this using `bazel`:
 ```bash
 bazel run src/main:main
 ```
+
+### [Template for getting started with Bazel](https://github.com/ourarash/ncurses_bazel)
